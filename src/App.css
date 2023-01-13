@@ -1,0 +1,113 @@
+body {
+  background-color: #102E44;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+#n-link {
+  font-size: 36px;
+  color: #B2FCFB;
+  text-decoration: none;
+}
+
+hr {
+  border: 2px solid #E3FAEC;
+}
+
+.foto {
+  width: 300px;
+}
+
+@media screen and (max-width:600px){
+  .foto {
+    width: 200px;
+  }
+
+  .logo{
+    width: 200px;
+  }
+
+  #n-link {
+    font-size: 24px;
+  }
+}
+
+.hero-container{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  text-align: center;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.title{
+  color: #B2FCFB;
+  font-size: 36px;
+  
+}
+
+.text {
+  font-size: 24px;
+  color: white;
+}
+
+
+.testimonial-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.c-img {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto 3%;
+  border-radius: 50%;
+}
+
+.c-caption {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 1.25rem;
+  padding-top: 1.25rem;
+  margin: auto;
+  color: #fefefe;
+  text-align: center;
+  width: 50%;
+}
+
+.c-caption > h3 {
+  color: #B2FCFB;
+
+}
+
+.c-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 36px;
+  color: #B2FCFB;
+}
+
+
+.contact-container{
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.contact-container > .form {
+  background-color: #B2FCFB;
+}
